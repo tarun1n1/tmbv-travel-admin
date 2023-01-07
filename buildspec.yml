@@ -16,4 +16,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-    - target/tmbv-travel-admin-0.0.1.jar
+    - target/tmbv-travel-admin-0.0.2.jar
