@@ -4,10 +4,10 @@ phases:
 
   pre_build:
     commands:
-      - echo pre_build 1
+      - echo pre_build
   build:
     commands:
-      - mvn clean install
+      - mvn package
       - echo build
   post_build:
     commands:
@@ -15,4 +15,5 @@ phases:
 
 artifacts:
   files:
+    - '**/*'
     - target/tmbv-travel-admin-0.0.2.jar
